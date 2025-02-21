@@ -56,5 +56,5 @@
         "temp/": true,
         "Temp/": true
     },
-    "dotnet.defaultSolution": "10 Seconds Game.sln"
+    "dotnet.defaultSolution": "10_Seconds_Game.sln"
 }

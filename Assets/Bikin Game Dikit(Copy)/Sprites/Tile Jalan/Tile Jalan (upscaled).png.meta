@@ -1,0 +1,1240 @@
+fileFormatVersion: 2
+guid: 31fdd0c3b533e714c98dc20ab61265a9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 30
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: WebGL
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 568
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e9f232f9662591e4b905000ce95b0ea6
+      internalID: -815630047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_1
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 568
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 74795a69f4f67e64a82d596388ca9262
+      internalID: 2130724350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_2
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 568
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b1910d56f0588f45853d819c943d623
+      internalID: 55950420
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_3
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 568
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 36fa7f6e737442e448fc6e5b41092844
+      internalID: 806347760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_4
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 568
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f323e87d49539b42ab9be2cc4711470
+      internalID: -184214758
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 05ee9c9b2f5f73d4ba05c854dfa01ea0
+      internalID: 1071477728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_6
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5c205152735684645a9d7cd297ac0f5a
+      internalID: -1561997530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_7
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1dba1fa46d1ed0943892a18ab081b7a8
+      internalID: -1074460969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_8
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d44d02d4601a0a4f97f19f733afac56
+      internalID: -1671190086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_9
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 536
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1a53c3dbc92b644b23f3d64ba66db7
+      internalID: -905618464
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 109304b512857f34a925494ddd90147d
+      internalID: 891895091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_11
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 26b4c68412a878644bb35ae27085ddae
+      internalID: -2134507864
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_12
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d24ff0e8523a8246bb9e0e4b4621a7e
+      internalID: -1595341235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_13
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49d122ae77ac0964a8a0c5bccfc01990
+      internalID: 794002117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_14
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 504
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1846c111b1a7dea449d9bedbd8a6cafd
+      internalID: -254765681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 472
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: de36cc836d2df134c8b781b0e2f65cc7
+      internalID: 1190701821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_16
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 472
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75c290519d29ddf478a0727e34a9cbda
+      internalID: 1265460586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_17
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 472
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53a20b395f3e388439970fa33bbbfcce
+      internalID: 1899519240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_18
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 472
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 62bbc9967bca56b44b2043cf15b4e32e
+      internalID: -1101652948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_19
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 472
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c371be0e1ff9354a961a4b84e146e67
+      internalID: 2142323750
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_20
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78c121155c2ce2a479dfd2bdbc1dda93
+      internalID: -273604586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_21
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 514553571c445ac42ad1498f08cfbba2
+      internalID: 38624650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_22
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a3378d0b9969f84a9612f3f2e9ec816
+      internalID: 304942800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_23
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3155858355eaae47b1f533d72ea53d5
+      internalID: -503455786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_24
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 440
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 367fa4be6594de24dbf804ada9911c8b
+      internalID: -1776137286
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_25
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4989ca3c958122e4fbe27d8c3ca5ff50
+      internalID: 697545869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_26
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 19dfa86a49e35fd48b4bec9b8c002018
+      internalID: 313946721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_27
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8a0dc4fec57b04e9fc62309c92577e
+      internalID: 1889782687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_28
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d3cf2f5981a5cb46b4725fdeb40e4c2
+      internalID: -1879261132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_29
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 248
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c1b4cbfc20b2d64088ea964231bc696
+      internalID: 1531458752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_30
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6b58edb70b3b8b4b85103faf9599a7e
+      internalID: 1712395782
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_31
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75af9688092a63c4b9db1f3d554fde63
+      internalID: 815854721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_32
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a848ca9a4a1450e45840fe3fd045f406
+      internalID: 636314722
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_33
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3596556e241b7544ca3063e57998a4c7
+      internalID: -1665817170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_34
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 216
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ddcc9e8d52763c842a62cc5d9c76360f
+      internalID: 1494018879
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_35
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad691dbd17792334c81bcff2efa6cb59
+      internalID: 805787889
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_36
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ec83d5e936004724bbe50da209adc069
+      internalID: -1721268046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_37
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17f8da265e2c2224980462b9c92d2b1e
+      internalID: 117950369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_38
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 188e6935784732b47af7b114e7df6532
+      internalID: -1420857953
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_39
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 184
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e88374c4a7d764742abdff507bc982df
+      internalID: -678093615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_40
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4182ac13eae1330448c713aabb3a5f9b
+      internalID: -1449940651
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_41
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd10247b533e68142a6f82d7a0a4e4cf
+      internalID: -1089469546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_42
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85b1ca0667c3cf242ae8488686899f2a
+      internalID: 616958316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_43
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 313045aa2c35d1c468713cbefbbf1d81
+      internalID: 1487168244
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_44
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 152
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee68902e835f8a1458ff85463894aef1
+      internalID: 17370292
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_45
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4a52eb852d07981468f52d5ce925be85
+      internalID: -1944016330
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_46
+      rect:
+        serializedVersion: 2
+        x: 32
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2897cac9609ec4fa2c284ea0c87aa9
+      internalID: -1811626713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_47
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 649a34e1e4a83d7408bb1fd2768cecd7
+      internalID: -850509273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_48
+      rect:
+        serializedVersion: 2
+        x: 96
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9e52a9400c961247a37dc17eaf3ec6f
+      internalID: 214273969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Tile Jalan (upscaled)_49
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 120
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3571b77ebcf70214eb2290d17e80d64c
+      internalID: 2066640301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      Tile Jalan (upscaled)_0: -815630047
+      Tile Jalan (upscaled)_1: 2130724350
+      Tile Jalan (upscaled)_10: 891895091
+      Tile Jalan (upscaled)_11: -2134507864
+      Tile Jalan (upscaled)_12: -1595341235
+      Tile Jalan (upscaled)_13: 794002117
+      Tile Jalan (upscaled)_14: -254765681
+      Tile Jalan (upscaled)_15: 1190701821
+      Tile Jalan (upscaled)_16: 1265460586
+      Tile Jalan (upscaled)_17: 1899519240
+      Tile Jalan (upscaled)_18: -1101652948
+      Tile Jalan (upscaled)_19: 2142323750
+      Tile Jalan (upscaled)_2: 55950420
+      Tile Jalan (upscaled)_20: -273604586
+      Tile Jalan (upscaled)_21: 38624650
+      Tile Jalan (upscaled)_22: 304942800
+      Tile Jalan (upscaled)_23: -503455786
+      Tile Jalan (upscaled)_24: -1776137286
+      Tile Jalan (upscaled)_25: 697545869
+      Tile Jalan (upscaled)_26: 313946721
+      Tile Jalan (upscaled)_27: 1889782687
+      Tile Jalan (upscaled)_28: -1879261132
+      Tile Jalan (upscaled)_29: 1531458752
+      Tile Jalan (upscaled)_3: 806347760
+      Tile Jalan (upscaled)_30: 1712395782
+      Tile Jalan (upscaled)_31: 815854721
+      Tile Jalan (upscaled)_32: 636314722
+      Tile Jalan (upscaled)_33: -1665817170
+      Tile Jalan (upscaled)_34: 1494018879
+      Tile Jalan (upscaled)_35: 805787889
+      Tile Jalan (upscaled)_36: -1721268046
+      Tile Jalan (upscaled)_37: 117950369
+      Tile Jalan (upscaled)_38: -1420857953
+      Tile Jalan (upscaled)_39: -678093615
+      Tile Jalan (upscaled)_4: -184214758
+      Tile Jalan (upscaled)_40: -1449940651
+      Tile Jalan (upscaled)_41: -1089469546
+      Tile Jalan (upscaled)_42: 616958316
+      Tile Jalan (upscaled)_43: 1487168244
+      Tile Jalan (upscaled)_44: 17370292
+      Tile Jalan (upscaled)_45: -1944016330
+      Tile Jalan (upscaled)_46: -1811626713
+      Tile Jalan (upscaled)_47: -850509273
+      Tile Jalan (upscaled)_48: 214273969
+      Tile Jalan (upscaled)_49: 2066640301
+      Tile Jalan (upscaled)_5: 1071477728
+      Tile Jalan (upscaled)_6: -1561997530
+      Tile Jalan (upscaled)_7: -1074460969
+      Tile Jalan (upscaled)_8: -1671190086
+      Tile Jalan (upscaled)_9: -905618464
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
