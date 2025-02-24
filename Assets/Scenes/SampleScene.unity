@@ -372,6 +372,7 @@ MonoBehaviour:
     m_Bits: 64
   BoxSize: {x: 1.2, y: 0.5}
   CastDistance: 1.5
+  SprintSpeed: 14
   Anim: {fileID: 1809264707}
 --- !u!1 &149980745
 GameObject:
@@ -1970,7 +1971,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &1459808330
 Transform:
   m_ObjectHideFlags: 0
