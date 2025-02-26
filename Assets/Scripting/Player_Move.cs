@@ -124,7 +124,6 @@ public class Player_Move : MonoBehaviour
         CurrentSpeed = Player_Variable.isRunning ? SprintSpeed : MoveSpeed;
         
         Debug.Log($"Current speed is {CurrentSpeed}");
-        Debug.Log($"Can Run: {Player_Variable.CanRun}, is Running: {Player_Variable.isRunning}");
     }
 
     void Flipping()
