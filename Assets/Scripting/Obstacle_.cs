@@ -15,6 +15,14 @@ public class Obstacle_ : MonoBehaviour
         if(collision.gameObject.CompareTag("Player"))
         {
             Timer_Countdown.instance.ReducingTimePoint(Time_Point);
+            
+            Audio_Effect.instance.PlayingSFX
+            (
+                Audio_Effect.instance.Sfx_player_clip[2]
+            );
+
+            collision.gameObject.GetComponent<Player_BlinkingEffect>().BlinkingEffectActive();
+            
             gameObject.SetActive(false);
         }
     }

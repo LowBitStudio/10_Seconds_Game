@@ -15,6 +15,12 @@ public class Timer_ClockItem : MonoBehaviour
             //If the player hits this item
             //Then it will put an extra time to the timer
             Timer_Countdown.instance.AddingTimePoint(Time_Point);
+
+            Audio_Effect.instance.PlayingSFX
+            (
+                Audio_Effect.instance.Sfx_player_clip[3]
+            );
+            
             //After that the item will disappear
             gameObject.SetActive(false);
         }

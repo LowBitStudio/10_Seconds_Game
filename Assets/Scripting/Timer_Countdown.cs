@@ -7,13 +7,27 @@ using TMPro;
 public class Timer_Countdown : MonoBehaviour
 {
     public static Timer_Countdown instance;
-    [SerializeField] private int Timer_Counter;
+    private UI_Manager UIM;
+    
+    [HideInInspector] 
+    public bool 
+        PlayerWins, 
+        PlayerLoses;
+    
+    public int Timer_Counter;
+    
     [SerializeField] private TextMeshProUGUI Timer_Text;
+
 
     //The timer will start counting down to ten
     //If the timer reaches 10
     //The game will be over
     //This will act some sort of health for the player
+
+    void Awake()
+    {
+        UIM = GetComponent<UI_Manager>();
+    }
 
     void Start()
     {
@@ -30,30 +44,33 @@ public class Timer_Countdown : MonoBehaviour
         Timer_Counter += point;
         Debug.Log($"Extra time added by {point}");
     }
-    
+
     public void ReducingTimePoint(int point)
     {
         Timer_Counter -= point;
         Debug.Log($"Extra time reduced by {point}");
     }
 
-    private void GameOver()
-    {
-        //This function activated the game over screen
-        Debug.Log($"Game Over!");
-    }
-
     IEnumerator Countdown()
     {
         while(Timer_Counter >= 0)
         {
+            //Stop the timer if the player reach the goal
+            if(PlayerWins)
+            {
+                UIM.Winning();
+                yield break; 
+            }
+
             Timer_Text.text = Timer_Counter.ToString();
             
             yield return new WaitForSeconds(1f);
             
             Timer_Counter--;
         }
-        //Game Over Screen on display
-        GameOver();
+        // Game Over Screen on display 
+        // if the player didn't reach the goal
+        PlayerLoses = true;
+        UIM.GameOver();
     }
 }

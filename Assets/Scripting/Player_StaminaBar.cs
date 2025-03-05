@@ -8,6 +8,7 @@ public class Player_StaminaBar : MonoBehaviour
     //Stamina Var
     [SerializeField] private float CurrentStamina, MaxStamina;
     [SerializeField] private float SprintCost;
+    [SerializeField] private float SprintRecovery;
     [SerializeField] private Image StaminaBar;
 
     void Awake()
@@ -36,7 +37,7 @@ public class Player_StaminaBar : MonoBehaviour
         //This will fill up the stamina overtime if the player didn't run
         if(!Player_Variable.isRunning && CurrentStamina >= 0)
         {
-            CurrentStamina += 1f * Time.deltaTime;
+            CurrentStamina += SprintRecovery * Time.deltaTime;
         }
 
         //Stop the stamina if it's maxed out

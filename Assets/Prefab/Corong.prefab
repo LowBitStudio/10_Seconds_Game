@@ -12,7 +12,7 @@ GameObject:
   - component: {fileID: 2545093069476566563}
   - component: {fileID: 9122648541120313297}
   - component: {fileID: 301216476843501794}
-  m_Layer: 0
+  m_Layer: 7
   m_Name: Corong
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -27,7 +27,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5362319610588272399}
   serializedVersion: 2
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 5.8730226, y: -4.67, z: 0.034494378}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0

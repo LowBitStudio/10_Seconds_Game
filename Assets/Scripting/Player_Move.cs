@@ -1,5 +1,6 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Threading;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -47,11 +48,26 @@ public class Player_Move : MonoBehaviour
 
     void Update()
     {
+        //Disabled the input
+        if(Timer_Countdown.instance.PlayerWins || Timer_Countdown.instance.PlayerLoses)
+        {
+            dir = Vector2.zero;
+            Player_Variable.isJumping = false;
+            Player_Variable.isRunning = false;
+            Anim.Play("Idle");
+            return;
+        }
+
         //Get the Input
         dir.x = Input.GetAxisRaw("Horizontal");
 
         //Jump Control
         Player_Variable.isJumping = Input.GetKey(KeyCode.Space) && IsGround();
+        
+        if(Player_Variable.isJumping)
+        {
+            Audio_Effect.instance.PlayingSFX(Audio_Effect.instance.Sfx_player_clip[1]);
+        }
         
         //Sprint control
         if(IsGround() && Player_Variable.CanRun)
@@ -61,6 +77,11 @@ public class Player_Move : MonoBehaviour
         else
         {
             Player_Variable.isRunning = false;
+        }
+
+        if(Input.GetKeyDown(KeyCode.LeftShift))
+        {
+            Audio_Effect.instance.PlayingSFX(Audio_Effect.instance.Sfx_player_clip[0]);
         }
 
         //Animation activation
@@ -98,17 +119,26 @@ public class Player_Move : MonoBehaviour
 
     void FixedUpdate()
     {
+        //This will make the control disabled
+        //once the game is done
+        if(Timer_Countdown.instance.PlayerWins)
+        {
+            rb.velocity = new Vector2(Mathf.Lerp(rb.velocity.x, 0, Time.deltaTime * 5), rb.velocity.y);
+            return; //Nullified all the commands
+        }
+
         //Running Physics
         float TargetSpeed = dir.x * CurrentSpeed;
         float HorizontalSpeed = IsGround() ? TargetSpeed : rb.velocity.x;
         
         //Apply the movement
+        //rb.velocity = new Vector2(dir.x * CurrentSpeed, rb.velocity.y);
         rb.velocity = new Vector2(HorizontalSpeed, rb.velocity.y);
         
         //Jumping Physics
         if(Player_Variable.isJumping)
         {
-            rb.velocity = new Vector2(rb.velocity.x, JumpForce);
+            rb.velocity = new Vector2(HorizontalSpeed, JumpForce);
             Player_Variable.isJumping = false;
         }
         //Cut the jump
@@ -122,8 +152,6 @@ public class Player_Move : MonoBehaviour
         
         //Sprinting Physics
         CurrentSpeed = Player_Variable.isRunning ? SprintSpeed : MoveSpeed;
-        
-        Debug.Log($"Current speed is {CurrentSpeed}");
     }
 
     void Flipping()
